@@ -1,0 +1,107 @@
+body {
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#imgCabecera {
+    width: 50vw;
+    height: 50vh;
+    background-image: url(img/cabecera.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#cajaTitulo {
+    width:20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#titulo {
+    text-align: center;
+    font-size: 32pt;
+    font-weight: 700;
+}
+
+#tituloTexto {
+    font-size: 12pt;
+    font-weight: 700;
+}
+
+#subtitulo {
+    text-align: center;
+    font-size: 12pt;
+}
+
+#primeraLetra {
+    font-size: 100pt;
+    font-weight: bold;
+    float: left;
+    margin-top: -5%;
+    margin-bottom: -5%;
+}
+
+#cuerpo {
+    font-size: 12pt;
+}
+
+#imgWereables {
+    width: 30vw;
+    height: 30vh;
+    background-image: url(img/wereables.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#imgHogarconectado {
+    width: 30vw;
+    height: 30vh;
+    background-image: url(img/hogarconectado.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#imgCocheautonomo {
+    width: 30vw;
+    height: 30vh;
+    background-image: url(img/cocheautonomo.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#imgIndustria {
+    width: 30vw;
+    height: 30vh;
+    background-image: url(img/industria.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#imgCiudadinteligente {
+    width: 30vw;
+    height: 30vh;
+    background-image: url(img/ciudadinteligente.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#imgTelefonica {
+    width: 20vw;
+    height: 20vh;
+    margin-top: 10%;
+    background-image: url(img/telefonica.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#imgTrustproject {
+    width: 5vw;
+    height: 5vh;
+    background-image: url(img/trustproject.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
