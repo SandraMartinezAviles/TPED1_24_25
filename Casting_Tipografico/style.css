@@ -1,0 +1,105 @@
+@font-face {
+    font-family: ArmaliteRifle;
+    src: url(tipografias/armalite.ttf);
+}
+
+@font-face {
+    font-family: BDCartoon;
+    src: url(tipografias/BD_Cartoon_Shout.ttf);
+}
+
+@font-face {
+    font-family: ImpactLabel;
+    src: url(tipografias/Impact\ Label.ttf);
+}
+
+@font-face {
+    font-family: Tuffy;
+    src: url(tipografias/Tuffy.ttf);
+}
+
+@font-face {
+    font-family: OldScript;
+    src: url(tipografias/Old\ Script.woff);
+}
+
+@font-face {
+    font-family: Riesling;
+    src: url(tipografias/riesling.ttf);
+}
+
+@font-face {
+    font-family: HillHouse;
+    src: url(tipografias/Hill_House.woff);
+}
+
+@font-face {
+    font-family: UglyQua;
+    src: url(tipografias/UglyQua.ttf);
+}
+
+@font-face {
+    font-family: MonospaceTypewriter;
+    src: url(tipografias/MonospaceTypewriter.ttf);
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cuadro-texto {
+    width: 31.5%;
+    height: 31%;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    padding: 10px;
+    border: 1px dashed black;
+}
+
+.cuerpo {
+    text-align: justify;
+}
+
+.armalite-rifle {
+    font-family: ArmaliteRifle;
+}
+
+.bd-cartoon-shout {
+    font-family: BDCartoon;
+}
+
+.impact-label {
+    font-family: ImpactLabel;
+}
+
+.tuffy {
+    font-family: Tuffy;
+}
+
+.old-script-regular {
+    font-family: OldScript;
+}
+
+.riesling-regular {
+    font-family: Riesling;
+}
+
+.hill-house {
+    font-family: HillHouse;
+}
+
+.uglyqua {
+    font-family: UglyQua;
+}
+
+.monoespacetypewriter {
+    font-family: MonospaceTypewriter;
+}
