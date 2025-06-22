@@ -1,0 +1,155 @@
+body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: "Roboto";
+}
+
+main {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background: url(assets/fondo-1400x860.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#cabecera {
+    display: flex;
+    flex-direction: row;
+    margin-left: 10%;
+    margin-right: 5%;
+}
+
+#cabecera-izquierda {
+    width: 50%;
+}
+
+#cabecera-derecha {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5% 0 5%;
+}
+
+.menu-text {
+    margin-left: 10px;
+}
+
+#cuerpo {
+    height: 75%;
+    display: flex;
+    flex-direction: row;
+    margin: 5% 10% 0 10%;
+}
+
+#cuerpo-izquierda {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.texto-titulo {
+    font-size: 20pt;
+}
+
+.primera-linea {
+    width: 100%;
+}
+
+.segunda-linea {
+    width: 100%;
+}
+
+.texto-cuerpo {
+    font-size: 12pt;
+    text-align: justify;
+}
+
+.cuerpo {
+    width: 100%;
+}
+
+.enlace a {
+    text-decoration: none;
+    color: rgb(55, 146, 203);
+}
+
+.button {
+    width: 100%;
+}
+
+#button-cuerpo {
+    color: white;
+    width: 150px;
+    height: 40px;
+    background-color: rgb(55, 146, 203);
+    border-radius: 5px;
+    border: none;
+}
+
+#cuerpo-derecha {
+    width: 35%;
+    margin-left: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.border-bottom{
+    border-bottom: 1px solid black;
+}
+
+.logos-cuerpo-derecha {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.texto-logos-cuerpo-derecha {
+    margin: 10px;
+}
+
+#cuadros-color {
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.cuadro-color {
+    width: 30px;
+    height: 30px;
+}
+
+.color-1 {
+    background-color: #3c0c13;
+}
+
+.color-2 {
+    background-color: #a01a3d;
+}
+
+.color-3 {
+    background-color: #f62a83;
+}
+
+.color-4 {
+    background-color: #db6d9d;
+}
+
+.color-5 {
+    background-color: #d2d0d5;
+}
