@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: "Roboto";
+}
+
+#cabecera {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid rgb(176, 174, 174);
+}
+
+.texto-cabecera {
+    color: #5ba525;
+    font-size: 10pt;
+}
+
+#cabecera-izquierda {
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#cabecera-central {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#cabecera-derecha {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#cuerpo {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#cuerpo-superior {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid rgb(176, 174, 174);
+}
+
+#cuerpo-superior-izquierda {
+    width: calc(50% - 100px);
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo-evernote-cuerpo {
+    font-size: 25pt;
+    color: rgb(44, 160, 180);
+}
+
+.caja-cuerpo {
+    width: 100%;
+}
+
+#cuerpo-superior-derecha {
+    width: calc(50% - 100px);
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.botones-descarga {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.button-cuerpo {
+    border-radius: 15px;
+    border: 1px solid #5ba525;
+    background-color: transparent;
+    padding: 5px;
+    margin-right: 20px;
+}
+
+.link-cuerpo {
+    text-decoration: none;
+    color: black;
+}
+
+#cuerpo-inferior {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-bottom: 1px solid rgb(176, 174, 174);
+}
+
+.caja-imagen {
+    width: calc(27% - 100px);
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.caja-imagen-titulo {
+    width: 100%;
+    margin-top: 10px;
+    font-size: 15pt;
+    font-weight: bold;
+}
+
+.caja-imagen-texto {
+    width: 100%;
+    margin-top: 10px;
+    font-size: 12pt;
+    text-align: justify;
+}
+
+#pie-pagina {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+}
+
+#pie-pagina-izquierda {
+    width: calc(70% - 100px);
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+#pie-pagina-derecha {
+    width: calc(30% - 100px);
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.pie-pagina-texto {
+    font-size: 10pt;
+    text-align: center;
+    margin-bottom: 10px;
+}
