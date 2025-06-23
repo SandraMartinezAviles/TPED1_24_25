@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Nike digital</title>
+    <meta name="description" content="Versión reducida de la web Nike Digital para la asignatura TPED2">
+    <link rel="stylesheet" href="nikedigital.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+</head>
+
+<body>
+    <div id="cajaSuperior" class="container-fluid">
+
+        <nav class="navbar navbar-dark bg-dark fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Nike Digital</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+                    aria-labelledby="offcanvasDarkNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Nike Digital</h5>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#anclaCentro">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#anclaBajo">Team</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="imgs/fondo.jpg" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="imgs/fondo_2.jpg" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="imgs/fondo_3.jpg" class="d-block w-100">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Siguiente</span>
+            </button>
+        </div>
+        <!-- <ul>
+            <li id="enlacesCajaSuperior"><a href="#anclaCentro">Nike Digital</a></li>
+            <li id="enlacesCajaSuperior"><a href="#anclaBajo">Team</a></li>
+        </ul> -->
+    </div>
+    <a name="anclaCentro"></a>
+    <div id="cajaCentral" class="container-fluid">
+        <h1>Nike<br>Digital</h1>
+        <h2>Product Vision & Design</h2>
+        <p>
+            Since 2017, our team has partnered with Nike to imagine, design, and launch some of Nike’s most innovative
+            concepts in mobile commerce. Challenged to help strengthen Nike’s relationship with its most devoted
+            fanbase, our team worked closely with Nike Digital to create mobile experiences that capture the magic of
+            unlocking Nike’s most exclusive products.
+        </p>
+        <p>
+            Nike’s rapid pace of innovation in mobile commerce has been covered extensively by Fast Company, Mashable,
+            Engadget, PSFK, and Hypebeast.
+        </p>
+    </div>
+    <a name="anclaBajo"></a>
+    <div id="cajaInferior" class="container-fluid">
+        <ul>
+            <li><a id="none" href="#">Art Direction</a></li>
+            <li><a id="site" href="https://easda.es/">Visual Design</a></li>
+            <li><a id="site" href="https://easda.es/" target="_blank">Interaction Design</a></li>
+            <li><a id="site" href="imgs/fondo.jpg">Experience Design</a></li>
+            <li><a id="none" href="#">Motion Design</a></li>
+            <li><a id="none" href="">Prototyping</a></li>
+        </ul>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
