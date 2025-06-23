@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto";
+}
+
+#cabecera {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background-color: rgb(214, 163, 237);
+    color: white;
+}
+
+#cuerpo {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+#cuerpo-izquierda {
+    width: 20%;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#cuerpo-centro {
+    width: 60%;
+    padding: 15px;
+}
+
+#cuerpo-derecha {
+    width: 20%;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#pie-pagina {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(214, 163, 237);
+    ;
+}
+
+@media (min-width: 450px) and (max-width: 1200px) {
+    #cuerpo {
+        flex-wrap: wrap;
+    }
+
+    #cuerpo-centro {
+        width: 70%;
+    }
+
+    #cuerpo-derecha {
+        width: 100%;
+    }
+}
+
+@media (max-width: 450px) {
+    #cuerpo {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #cuerpo-izquierda {
+        width: 100%;
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
