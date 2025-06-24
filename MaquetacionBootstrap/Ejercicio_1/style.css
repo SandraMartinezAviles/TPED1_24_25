@@ -1,0 +1,11 @@
+.row {
+    height: 100vh;
+}
+
+.columna-lila {
+    background-color: rgb(200, 112, 238);
+}
+
+.columna-naranja {
+    background-color: rgb(245, 198, 112);
+}
